@@ -14,6 +14,8 @@ Route::middleware('auth')->group(function () {
    Route::get('/home', [HomeController::class, 'home'])->name('home');
    Route::post('/data/store', [FormController::class, 'store'])->name('form.store');
    Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
+
+//    Suraj changesssss
 });
 
 
